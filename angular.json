@@ -27,6 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
+            "allowedCommonJsDependencies": ["qrcode"]
             "scripts": []
           },
           "configurations": {
