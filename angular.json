@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/qrcode-photo-gallary",
+            "outputPath": "dist/AngularProjects",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -27,7 +27,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "allowedCommonJsDependencies": ["qrcode"]
+            "allowedCommonJsDependencies": ["qrcode"],
+            "baseHref": "/AngularProjects/"
             "scripts": []
           },
           "configurations": {
